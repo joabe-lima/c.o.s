@@ -1,0 +1,65 @@
+.container_listaCliente{
+    background: linear-gradient( #001227,#001F3F);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 550px;
+}
+.container_listaCliente h1 {
+    color: aliceblue;
+    margin: 20px;
+}
+.container_listaCliente table {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 1300px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.container_listaCliente thead {
+    background-color: rgb(224, 224, 224);
+    height: 3em;
+    
+}
+.container_listaCliente tbody {
+    text-align: center;
+    height: 3em;
+    
+}
+.container_listaCliente tbody tr {
+    height: 3em;
+    
+}
+.container_listaCliente tbody a {
+    color: #ffffff;
+    background-color: #001F3F;
+    border-radius: 2px;
+}
+
+.busca {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 1300px;
+    margin-top: 30px;
+}
+.busca input {
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+.busca button {
+    background-color: #FFC65E;
+    color: white;
+    padding: 7px;
+    width: 80px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.busca button:hover {
+    color: black;
+}
+

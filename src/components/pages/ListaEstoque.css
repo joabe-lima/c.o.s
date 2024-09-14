@@ -1,0 +1,76 @@
+.container_estoque{
+    background: linear-gradient( #001227,#001F3F);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 550px;
+}
+.container_estoque h1{
+    color: aliceblue;
+    margin: 20px;
+}
+.container_estoque table {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 1300px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+}
+.container_estoque thead {
+    background-color: rgb(224, 224, 224);
+    height: 3em;
+    border-color: blue;
+    
+}
+.container_estoque tbody {
+    
+    text-align: center;
+    height: 3em;
+}
+.container_estoque tbody tr {
+    height: 3em;
+}
+.container_estoque table button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    width: 80px;
+    border: none;
+    transition: .5s;
+}
+.container_estoque table button:hover {
+    color: #FFC65E;
+
+}
+.busca {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    gap: 2.1em;
+    margin-top: 30px;
+}
+.busca input {
+    margin-top: 15px;
+}
+.busca button {
+    background-color: #FFC65E;
+    padding: 7px;
+    width: 80px;
+}
+.busca button:hover {
+    color: black;
+}
+
+.container_estoque tbody img {
+    width: 20px;
+    cursor: pointer;
+}
+
+VscTrash {
+    height: 50px;
+}

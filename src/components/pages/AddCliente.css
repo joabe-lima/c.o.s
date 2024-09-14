@@ -1,0 +1,32 @@
+.newproject_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 3em;
+    background: linear-gradient( #001227,#001F3F);
+}
+
+.newproject_container h1 {
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+.newproject_container p {
+    color: #ffc75ea8;
+}
+
+span {
+    color: #FFC65E;
+}
+.newproject_container label {
+    color: #FFC65E;
+}
+.newproject_container button {
+    border:1px solid white;
+    margin-left: 150px;
+    margin-top: 30px;
+    width: 130px;
+    cursor: pointer;
+}

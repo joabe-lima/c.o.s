@@ -1,0 +1,98 @@
+@font-face {
+    font-family: roboto;
+   src: url('../../fonte/roboto/Roboto-Light.ttf');
+}
+
+
+.img_logo {
+    width: 70px;
+    margin-left: 20px;
+}
+.nav_ul {
+    display: flex;
+    gap: 3rem;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+.nav_ul svg {
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav_ul svg:hover {
+    color: #FFC65E;
+}
+.container_navegador {
+    display: flex;
+    justify-content: space-between;
+    background-color: #001227;
+    transition: 1s;
+}
+.container_navegador:hover {
+    background-color: #000e1f;
+}
+.nav_li a {
+    color: #FFC65E;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: roboto;
+}
+
+.nav_li a:hover {
+    color: white;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar {
+    background-color: #454545;
+    box-shadow: rgba(0, 0, 0, 0.363) 7px 7px 7px;
+    position: absolute;
+    right: 5px;
+    top: 80px;
+    display: none;
+    width: 150px;
+}
+.navbar ul {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.navbar li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: roboto;
+}
+.navbar a:hover {
+    color: #FFC65E;
+}
+
+.navbar li:hover {
+    background-color: #353535;
+}
+
+.perfil {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.perfil:hover .navbar{
+      display: block;
+}
+.icon {
+    margin-left: 10px;
+}
