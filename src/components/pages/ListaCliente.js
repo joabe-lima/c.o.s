@@ -9,6 +9,7 @@ import { VscTrash } from "react-icons/vsc";
 import { BiSolidEdit } from "react-icons/bi";
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import ExcluirDado from '../project/delete';
 
 
 
@@ -59,7 +60,7 @@ function ListaCliente () {
                          <td>{item.email}</td>
                          <td>livre</td>
                          <td><BiSolidEdit size={25} cursor={'pointer'}/></td>
-                         <td><VscTrash color='red' size={25} cursor={'pointer'}/></td>
+                         <td><ExcluirDado key={item.id} id={item.id} /></td>
                          <td><LinkButton to="/Cos" text="criar" classe="btn"/></td>
                        </tr>
                        ))}

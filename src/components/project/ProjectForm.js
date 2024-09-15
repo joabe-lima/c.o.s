@@ -45,7 +45,7 @@ function ProjectForm ({btnText}) {
              />
             
              <Input 
-            type="number" 
+            type="text" 
             text="Telefone" 
             name="telefone" 
             placeholder="Insira o telefone do cliente" 

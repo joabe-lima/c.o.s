@@ -7,6 +7,7 @@ import { VscTrash } from "react-icons/vsc";
 import { BiSolidEdit } from "react-icons/bi";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import ExcluirDado from "../project/DeleteEstoque"
 
 function ListaEstoque () {
 
@@ -53,7 +54,7 @@ function ListaEstoque () {
                         <td>{produto.modelo}</td>
                         <td>{produto.quantidade}</td>
                         <td><BiSolidEdit size={25} cursor={'pointer'}/></td>
-                        <td><VscTrash color='red' size={25} cursor={'pointer'} /></td>
+                        <td><ExcluirDado key={produto.id} id={produto.id}/></td>
                      </tr>
                       ))}
                </tbody>

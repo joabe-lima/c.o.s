@@ -82,6 +82,30 @@ app.post('/api/estoque', (req, res) => {
   });
 });
 
+app.delete('/api/clientes/:id', (req, res) => {
+  const id = req.params.id;
+  const query = 'DELETE FROM clientes WHERE id = ?';
+
+  db.query(query, [id], (error, results) => {
+    if (error) {
+      return res.status(500).json({ error: 'Erro ao excluir dado' });
+    }
+    res.status(200).json({ message: 'Dado excluído com sucesso' });
+  });
+});
+
+app.delete('/api/estoque/:id', (req, res) => {
+  const id = req.params.id;
+  const query = 'DELETE FROM produto WHERE id = ?';
+
+  db.query(query, [id], (error, results) => {
+    if (error) {
+      return res.status(500).json({ error: 'Erro ao excluir dado' });
+    }
+    res.status(200).json({ message: 'Dado excluído com sucesso' });
+  });
+});
+
 
   // Iniciar o servidor
 app.listen(port, () => {

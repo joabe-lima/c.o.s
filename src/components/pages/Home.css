@@ -74,9 +74,11 @@
     margin-left: 0px;
 }
 .central-home {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    padding: 0px 80px;
 }
 .container-link {
     display: flex;
@@ -88,8 +90,8 @@
     max-width: 500px;
 }
 .container-logo {
-    background-image: url('../../img/fundo-logo-4.png');
-    background-size: 450px;
+   background-image: url('../../img/fundo-logo-4.png');
+   background-size: 450px;
    display: flex;
    align-items: center;
    justify-content: center;

@@ -56,7 +56,8 @@
     right: 5px;
     top: 80px;
     display: none;
-    width: 150px;
+    width: 130px;
+    border-radius: 5px;
 }
 .navbar ul {
     text-decoration: none;
@@ -67,6 +68,7 @@
 .navbar li {
     padding: 10px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .navbar a {

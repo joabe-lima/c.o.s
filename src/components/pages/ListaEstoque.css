@@ -12,11 +12,13 @@
 }
 .container_estoque table {
     background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 7px 7px;
     padding: 20px;
     width: 1300px;
     margin: 20px;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
     
 }
 .container_estoque thead {
@@ -33,15 +35,7 @@
 .container_estoque tbody tr {
     height: 3em;
 }
-.container_estoque table button {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 7px;
-    width: 80px;
-    border: none;
-    transition: .5s;
-}
+
 .container_estoque table button:hover {
     color: #FFC65E;
 
