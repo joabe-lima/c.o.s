@@ -58,6 +58,7 @@
     display: none;
     width: 130px;
     border-radius: 5px;
+    text-align: center;
 }
 .navbar ul {
     text-decoration: none;

@@ -28,6 +28,7 @@ function Home () {
                      <img src={logo} alt='logo' />
                   </div>
                </div>
+               <hr></hr>
                <div className='central-home2'>
                   <div className='container-link'>
                      <h2>Quem somos nós</h2>

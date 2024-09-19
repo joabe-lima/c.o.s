@@ -5,6 +5,8 @@ import './ListaCos.css'
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+import Input from '../form/Input'
+
 function ListaCos () {
 
     const [data, setData] = useState([]);
@@ -27,6 +29,10 @@ function ListaCos () {
 
             <h1>Lista de <span>O.S</span></h1>
             <p>aqui você encontra todas as ordems de serviços emitidas</p>
+            <div className='busca_cos'>
+              <SubmitButton text={'buscar'}/>
+              <Input placeholder={'qual ordem procura ?'} />
+            </div>
             {data.map(item => (  
             <div className='painel'>
                 <div className='campos_cliente'>

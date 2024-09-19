@@ -61,3 +61,23 @@
     padding: 20px;
     border-radius: 10px;
 }
+.busca_cos {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.busca_cos button {
+     background-color: #FFC65E;
+     border-radius: 5px;
+     margin-right: 20px;
+     padding: 9px;
+     width: 80px;
+     cursor: pointer;
+}
+.busca_cos button:hover {
+    color: black;
+}
+.busca_cos input {
+    margin-top: 6px;
+    
+}

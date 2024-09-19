@@ -12,6 +12,7 @@ const ExcluirDado = ({ id }) => {
       if (response.ok) {
         console.log('Dado excluído com sucesso');
         // Atualize o estado ou faça outras ações necessárias
+        
       } else {
         console.error('Falha ao excluir dado');
       }
@@ -25,6 +26,7 @@ const ExcluirDado = ({ id }) => {
       <td><VscTrash color='red' size={25} cursor={'pointer'}/></td>
     </button>
   );
+  
 };
 
 export default ExcluirDado;

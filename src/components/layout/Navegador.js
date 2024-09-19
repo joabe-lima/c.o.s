@@ -27,7 +27,7 @@ function Navegador () {
                     <div className='navbar'>
                 <ul>
                     <li>
-                       <Link>feedbacks</Link>
+                       <Link>feedback</Link>
                     </li>
                     <li>
                        <Link>ajuda</Link>
