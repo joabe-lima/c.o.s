@@ -14,7 +14,7 @@
 }
 
 .newproject_container p {
-    color: #ffc75ea8;
+    color: #ffc75e73;
 }
 
 span {
@@ -24,9 +24,9 @@ span {
     color: #FFC65E;
 }
 .newproject_container button {
-    border:1px solid white;
     margin-left: 150px;
     margin-top: 30px;
     width: 130px;
     cursor: pointer;
+    border-radius: 50px;
 }

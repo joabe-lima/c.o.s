@@ -26,11 +26,14 @@
 .container_navegador {
     display: flex;
     justify-content: space-between;
-    background-color: #001227;
+    background-color: #00031100;
     transition: 1s;
+    position: absolute;
+    top: 0%;
+    width: 100%;
 }
 .container_navegador:hover {
-    background-color: #000e1f;
+    background-color: #00061acc;
 }
 .nav_li a {
     color: #FFC65E;
@@ -53,11 +56,11 @@
     background-color: #454545;
     box-shadow: rgba(0, 0, 0, 0.363) 7px 7px 7px;
     position: absolute;
-    right: 5px;
+    right: 1px;
     top: 80px;
     display: none;
     width: 130px;
-    border-radius: 5px;
+    border-radius: 0px 0px 1px 1px;
     text-align: center;
 }
 .navbar ul {
@@ -69,7 +72,6 @@
 .navbar li {
     padding: 10px;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 .navbar a {

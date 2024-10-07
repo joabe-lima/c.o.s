@@ -1,10 +1,16 @@
+@font-face {
+    font-family: caviar;
+   src: url('../../fonte/caviar_dreams/CaviarDreams.ttf');
+}
+
 .container_estoque{
-    background: linear-gradient( #001227,#001F3F);
+    background: linear-gradient( #000925,#04296d);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 550px;
+    min-height: 753px;
+    padding-top: 100px;
 }
 .container_estoque h1{
     color: aliceblue;
@@ -59,6 +65,19 @@
 .busca button:hover {
     color: black;
 }
+.busca a {
+    background-color: #8d8d8d;
+    color: white;
+    text-decoration: none;
+    margin-left: 510px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.busca a:hover {
+    background-color: rgb(14, 107, 53);
+}
 
 .container_estoque tbody img {
     width: 20px;
@@ -67,4 +86,36 @@
 
 VscTrash {
     height: 50px;
+}
+.form-vendas {
+    background-color: #001233de;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+}
+.form-vendas form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+}
+.form-vendas input {
+    padding: 15px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 50px;
+    outline-color: rgba(0, 153, 255, 0.233);
+}
+.form-vendas button {
+    margin-left: 37%;
+    padding: 10px;
+    width: 120px;
+    border-radius: 50px;
+}
+.form-vendas label {
+    font-family: caviar,sans-serif;
+    color: #ffbe46;
+    font-size: 20px;
 }

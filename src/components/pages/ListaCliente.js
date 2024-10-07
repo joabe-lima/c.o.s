@@ -41,7 +41,7 @@ function ListaCliente () {
                 <table>
                     <thead>
                         <tr>
-                            <th>id</th>
+                            <th>ID</th>
                             <th>nome</th>
                             <th>telefone</th>
                             <th>email</th>

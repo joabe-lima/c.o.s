@@ -2,15 +2,19 @@
     font-family: caviar;
    src: url('../../fonte/caviar_dreams/CaviarDreams.ttf');
 }
+@font-face {
+    font-family: roboto;
+   src: url('../../fonte/roboto/Roboto-Light.ttf');
+}
 
 .home_container {
-    background: linear-gradient( #001227,#00264d);
+    background: linear-gradient( #000320,#00122c);
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4em;
+    
     min-height: 700px;
 }
 
@@ -33,7 +37,7 @@
 }
 
 .home_container img {
-    width: 400px;
+    width: 500px;
     margin: 0.5em 0;
     margin-top: 0%;
     margin-bottom: 50px;
@@ -42,7 +46,7 @@
 
 .btn1 {
     margin-right: 50px;
-    background-color: #eeae36;
+    background-color: #e49c00;
     border-radius: 5px;
     color: #ffffff;
     padding: 10px;
@@ -50,7 +54,8 @@
     transition: 1s;
 }
 .btn1:hover {
-    color: black;
+    background-color: #d88c00;
+    color: rgb(255, 255, 255);
 }
 .btn2 {
     margin-right: 50px;
@@ -65,33 +70,35 @@
 .btn2:hover {
     color: #FFC65E;
 }
-
-.btn_home {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 255, 255, 0);
-    width: 500px;
-    margin-left: 0px;
-}
 .central-home {
-    margin-top: 30px;
+    background: url('../../img/fundo7.jpg');
+    box-shadow: rgba(0, 0, 0, 0.219) 0px 7px 7px;
+    background-size: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    padding: 0px 80px;
+    margin-bottom: 0px;
+    padding: 120px 220px;
+   
 }
 .container-link {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
-    
+    margin-top: 170px;
 }
 .container-link p {
     max-width: 500px;
 }
+.container-link2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    position: absolute;
+    left: 200px;
+}
+.container-link2 p {
+    max-width: 500px;
+}
 .container-logo {
-   background-image: url('../../img/fundo2.jpg');
-   box-shadow: rgba(0, 0, 0, 0.26) 7px 10px 7px;
    background-size: 670px;
    display: flex;
    align-items: center;
@@ -105,25 +112,197 @@
     margin-right: 0px;
 }
 .central-home2 {
-    background: url('../../img/propa.jpg');
-    box-shadow: rgba(0, 0, 0, 0.274) 7px 7px 7px;
+    background-color: white;
+    background-size: 1500px;
+    border-radius: 0px 0px 0px 0px;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
-    padding: 20px 60px;
-    margin-top: 150px;
-    border-radius: 10px;
-    
+    padding: 160px 220px;
+    margin-top: 0px;
+    width: 100%;
+    border-top: 10px solid rgb(238, 238, 238);
+}
+.central-home2 h1 {
+    color: rgb(243, 243, 243);
+    font-size: 100px;
 }
 .central-home2 p {
     color: black;
+    font-size: 15px;
 }
 .central-home2 h2 {
     color: #ffb120;
     font-family: caviar,sans-serif;
+    font-size: 40px;
 }
-hr {
+.central-home2 a {
+    background-color: #00032000;
+    color: black;
+    padding: 10px 20px;
+    transition: 0.5s;
+    border-radius: 0px;
+    font-weight: bold;
+    font-family: roboto,sans-serif;
+}
+.central-home2 a:hover{  
+    border-bottom: 3px solid orange;
+}
+.propaganda {
+    background-size: 500px;
+    margin-left: 50px;
+}
+.central-home2 img {
+    box-shadow: rgba(0, 0, 0, 0.151) 7px 7px 7px;
+    height: 250px;
+    width: 400px;
+}
+.central-home3 {
+    background-color: white;
+    background-size: 1500px;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px;
+    margin-top: 0px;
     width: 100%;
-    border-color: #ffb1201a;
-    margin-top: 100px;
+}
+.central-home3 h1 {
+    color: rgb(243, 243, 243);
+    font-size: 100px;
+    margin-right: 100px;
+}
+.central-home3 img {
+    box-shadow: rgba(0, 0, 0, 0.151) 7px 7px 7px;
+    height: 250px;
+    width: 410px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.container-venda {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    position: absolute;
+    right: 175px;
+}
+.container-venda p {
+    color: black;
+    max-width: 550px;
+}
+.container-venda h2 {
+    color: #ffb120;
+    font-family: caviar,sans-serif;
+    font-size: 40px;
+}
+.central-home3 a {
+    background-color: #00032000;
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 0px;
+    font-weight: bold;
+    font-family: roboto,sans-serif;
+    width: 160px;
+    margin-left: 350px;
+    font-size: 15px;
+}
+.central-home3 a:hover{  
+    background-color: #ffffff;
+    color: #ffb120;
+    border-bottom: 3px solid orange;
+}
+.clientes {
+    background-size: 500px;
+    margin-right: 50px;
+}
+.clientes img {
+    height: 270px;
+    width: 450px;
+    margin: 0px;
+    margin-right: 40px;
+}
+.central-home4 {
+    background-color: white;
+    background-size: 1500px;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px;
+    padding-bottom: 150px;
+    margin-top: 0px;
+    width: 100%;
+    border-bottom: 10px solid rgb(238, 238, 238);
+}
+.central-home4 h1 {
+    color: rgb(243, 243, 243);
+    font-size: 100px;
+}
+.central-home4 p {
+    color: black;
+    font-size: 15px;
+}
+.central-home4 h2 {
+    color: #ffb120;
+    font-family: caviar,sans-serif;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.container-empresa {
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    position: absolute;
+    right: 400px;
+}
+.container-empresa p {
+    color: black;
+    max-width: 600px;
+}
+.informacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2255px;
+}
+.informacao-1 {
+    background-color: #001c50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    gap: 1em;
+}
+.informacao-1 p {
+    margin-top: 20px;
+}
+.informacao-2 {
+    background-color: #ce8d00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    gap: 1em;
+}
+.informacao-2 p {
+    margin-top: 20px;
+}
+.informacao-3 {
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    gap: 1em;
+}
+.informacao-3 p {
+    margin-top: 20px;
 }

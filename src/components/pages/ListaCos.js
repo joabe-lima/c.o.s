@@ -29,7 +29,8 @@ function ListaCos () {
 
             <h1>Lista de <span>O.S</span></h1>
             <p>aqui você encontra todas as ordems de serviços emitidas</p>
-            <div className='busca_cos'>
+            <div className='cos_plataforma'>
+              <div className='busca_cos'>
               <SubmitButton text={'buscar'}/>
               <Input placeholder={'qual ordem procura ?'} />
             </div>
@@ -37,36 +38,36 @@ function ListaCos () {
             <div className='painel'>
                 <div className='campos_cliente'>
                     <div>
-                        <h3>1</h3>
+                        <h4>1</h4>
                     </div> 
                     <div>
-                        <h3>Carlos</h3>
+                        <h4>Carlos</h4>
                     </div>
                     <div>
-                        <h3>71943253960</h3>
+                        <h4>71943253960</h4>
                     </div>
                     <div>
-                        <h3>carlos@gmail.com</h3>
+                        <h4>carlos@gmail.com</h4>
                     </div>
                     <SubmitButton text='concluir'/>
                 </div>    
                  
                 <div className='campos_os'>
                  
-                   <div>
-                    <h3>Marca</h3>
+                   <div className='item'>
+                    <h4>Marca:</h4>
                     <p key={item.id}>{item.marca}</p>
                    </div>
-                   <div>
-                    <h3>Modelo</h3>
+                   <div className='item'>
+                    <h4>Modelo:</h4>
                     <p>{item.modelo}</p>
                    </div>
-                   <div>
-                    <h3>Imei</h3>
+                   <div className='item'>
+                    <h4>Imei:</h4>
                     <p>{item.imei}</p>
                    </div>
-                   <div>
-                    <h3>Data de entrega</h3>
+                   <div className='item'>
+                    <h4>Data de entrega:</h4>
                     <p>{item.data_entrega}</p>
                    </div>
                 
@@ -75,14 +76,16 @@ function ListaCos () {
                 <div className='campos_os'>
                 
                    <div className='problema'>
-                    <h3>problema relatado:</h3>
+                    <h4>problema relatado:</h4>
                     <p>{item.problema}</p>
                    </div> 
                    
                 </div>
-                  
+                 
             </div>
             ))}
+            </div>
+            
         </div> 
       <Footer/>  
     </div>

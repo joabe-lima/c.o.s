@@ -1,4 +1,4 @@
-import '../project/CosForm.css'
+
 import Input from '../form/Input'
 import SubmitButton from '../form/SubmitButton'
 import { useEffect, useState } from 'react'

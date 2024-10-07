@@ -20,7 +20,7 @@ function Footer () {
                         <FaTwitter />
                     </li>
                 </ul>
-                <p><span>COS</span> corporation &copy; 2024</p>
+                <p><span>COS</span> corporation &copy; 2024 todos os direitos reservados.</p>
            </footer>
         </div>
        

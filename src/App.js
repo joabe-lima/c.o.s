@@ -7,6 +7,7 @@ import AddProduto from "./components/pages/AddProduto";
 import Cos from "./components/pages/Cos";
 import ListaCos from "./components/pages/ListaCos";
 import Login from "./components/pages/Login";
+import Cadastro from "./components/pages/Cadastro";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                   <Route path="/adcionar_produto" element={<AddProduto />} />
                   <Route path="/cos" element={<Cos />} />
                   <Route path="/lista_cos" element={<ListaCos />} />
+                  <Route path="/cadastro" element={<Cadastro />} />
                 </Routes>  
        </BrowserRouter>
     </div>

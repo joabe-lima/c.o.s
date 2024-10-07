@@ -8,6 +8,8 @@ import { BiSolidEdit } from "react-icons/bi";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ExcluirDado from "../project/DeleteEstoque"
+import LinkButton from '../layout/LinkButton'
+import Vender from '../project/vender'
 
 function ListaEstoque () {
 
@@ -23,6 +25,8 @@ function ListaEstoque () {
        });
    }, []);
 
+   
+
    return (
 <div>
   <Navegador/> 
@@ -32,11 +36,15 @@ function ListaEstoque () {
          <div className='busca'>
             <SubmitButton text="buscar"/>
             <Input placeholder="qual produto você procura?" />
+            <LinkButton text={'vender produto'}/>
+            <div className='form-vendas'>
+               <Vender/>
+            </div>
          </div>
             <table>
                <thead>
                      <tr>
-                        <th>id</th>
+                        <th>ID</th>
                         <th>nome</th>
                         <th>marca</th>
                         <th>modelo</th>

@@ -1,7 +1,8 @@
-import './LoginForm.css'
+
 import { useEffect, useState } from 'react'
 import SubmitButton from '../form/SubmitButton'
 import Input from '../form/Input'
+import { Link } from 'react-router-dom'
 
 
 function LoginForm ({handleSubmit, btnText, projectData}) {
@@ -55,6 +56,8 @@ function LoginForm ({handleSubmit, btnText, projectData}) {
              />
 
             <SubmitButton text={btnText} />  
+
+            <Link to={'/cadastro'}>cadastrar uma conta?</Link>
        </form>
     )
 }

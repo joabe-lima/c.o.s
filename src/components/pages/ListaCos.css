@@ -1,10 +1,15 @@
+@font-face {
+    font-family: roboto;
+   src: url('../../fonte/roboto/Roboto-Light.ttf');
+}
 .central_cos{
-    background: linear-gradient( #001227,#001F3F);
+    background: linear-gradient( #000925,#04296d);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 550px;
+    min-height: 753px;
+    padding-top: 100px;
 }
 .central_cos h1 {
     margin: 20px;
@@ -15,36 +20,32 @@
 }
 .painel {
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.5) 7px 7px 7px;
+    border: rgb(211, 211, 211) solid 1px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: fit-content;
-    padding: 30px;
-    margin: 40px;
-    border-radius: 10px;
+    padding: 0px;
+    margin: 30px;
+    border-radius: 10px 10px 0px 0px ;
 }
 .campos_cliente {
     background-color: rgb(211, 211, 211);
-    box-shadow: rgba(0, 0, 0, 0.26) 7px 7px 7px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5em;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 5px;
-}.campos_os {
-    background-color: rgba(255, 255, 255, 0);
-    
+    gap: 6em;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    font-family: roboto;
+    font-weight: lighter;
+}
+.campos_os {
+    background-color: rgba(185, 1, 1, 0);
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 5em;
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 700px;
+    border: rgb(211, 211, 211) solid 1px;
+    gap: 2em;
+    padding: 20px 10px;
 }
 .campos_os p {
     color: black;
@@ -55,22 +56,35 @@
     background-color: #001F3F;
     color: white;
     cursor: pointer;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.campos_cliente button:hover {
+    background-color: #001F3F;
+    color: #FFC65E;
 }
 .problema{
-    background-color: rgb(172, 172, 172);
-    padding: 20px;
+    
+    padding: 5px;
     border-radius: 10px;
+    max-width: 800px;
 }
 .busca_cos {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    justify-content: center;
+    margin-top: 10px;
+    width: 600px;
+    margin-left: 5px;
+   
 }
 .busca_cos button {
      background-color: #FFC65E;
-     border-radius: 5px;
+     border-radius: 2px;
      margin-right: 20px;
-     padding: 9px;
+     padding: 7px;
      width: 80px;
      cursor: pointer;
 }
@@ -80,4 +94,16 @@
 .busca_cos input {
     margin-top: 6px;
     
+}
+.cos_plataforma {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.315) 0px 7px 7px;
+    border-radius: 10px;
+    margin: 50px 0px;
+    padding: 10px 50px 50px 50px;
+}
+.item {
+    display: flex;
+    margin: 0px 5px;
+    gap: 0.5em;
 }

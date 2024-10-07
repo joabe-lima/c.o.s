@@ -1,3 +1,31 @@
 .newproject_container {
-    background: linear-gradient( #001227,#001F3F);
+    background: linear-gradient( #000925,#04296d);
+}
+.newproject_container form {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 7px 7px;
+    padding: 50px 486px;
+}
+.newproject_container input {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 15px;
+    border-radius: 50px;
+    outline-color: rgba(0, 153, 255, 0.233);
+}
+.newproject_container button {
+    background-color: rgb(255, 174, 0);
+    padding: 12px;
+    width: 150px;
+    margin-left: 31%;
+}
+.newproject_container h1 {
+    margin-top: 100px;
+    font-family: caviar;
+}
+.newproject_container label {
+    font-family: caviar;
+    font-size: 20px;
+}
+.newproject_container span {
+    font-family: caviar;
 }
