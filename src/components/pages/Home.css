@@ -37,7 +37,7 @@
 }
 
 .home_container img {
-    width: 500px;
+    width: 400px;
     margin: 0.5em 0;
     margin-top: 0%;
     margin-bottom: 50px;
@@ -71,19 +71,20 @@
     color: #FFC65E;
 }
 .central-home {
-    background: url('../../img/fundo7.jpg');
+    background: url('../../img/fundo-fosco-1.jpeg');
     box-shadow: rgba(0, 0, 0, 0.219) 0px 7px 7px;
     background-size: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 0px;
-    padding: 120px 220px;
+    padding: 90px 70px;
    
 }
 .container-link {
     display: flex;
     flex-direction: column;
-    margin-top: 170px;
+    margin-top: 110px;
+    margin-left: 60px;
 }
 .container-link p {
     max-width: 500px;
@@ -93,13 +94,13 @@
     flex-direction: column;
     margin-top: 80px;
     position: absolute;
-    left: 200px;
+    left: 150px;
 }
 .container-link2 p {
-    max-width: 500px;
+    max-width: 450px;
 }
 .container-logo {
-   background-size: 670px;
+   background-size: 600px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -108,7 +109,7 @@
     border-radius: 15px;
 }
 .container-logo img {
-   
+    
     margin-right: 0px;
 }
 .central-home2 {
@@ -183,7 +184,7 @@
     flex-direction: column;
     margin-top: 80px;
     position: absolute;
-    right: 175px;
+    right: 10px;
 }
 .container-venda p {
     color: black;
@@ -193,6 +194,10 @@
     color: #ffb120;
     font-family: caviar,sans-serif;
     font-size: 40px;
+    margin-left: 40px;
+}
+.container-venda a {
+margin-right: 95px;
 }
 .central-home3 a {
     background-color: #00032000;
@@ -254,7 +259,7 @@
     flex-direction: column;
     margin-top: 80px;
     position: absolute;
-    right: 400px;
+    right: 250px;
 }
 .container-empresa p {
     color: black;
@@ -265,7 +270,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 2255px;
+    top: 2100px;
 }
 .informacao-1 {
     background-color: #001c50;
@@ -273,7 +278,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    max-width: 400px;
+    width: 330px;
     text-align: center;
     gap: 1em;
 }
@@ -286,7 +291,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 400px;
+    width: 330px;
     text-align: center;
     gap: 1em;
 }
@@ -299,7 +304,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    width: 400px;
+    width: 330px;
     text-align: center;
     gap: 1em;
 }

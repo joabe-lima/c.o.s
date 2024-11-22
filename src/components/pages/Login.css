@@ -12,7 +12,7 @@
 .container_login form {
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.274) 7px 7px 7px;
-    padding: 85px 60px;
+    padding: 70px 45px;
     margin-top: 160px;
 }
 .container_login form a {
@@ -63,12 +63,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 600px;
-    height: 510px;
+    width: 500px;
+    height: 481px;
     
 }
 #rodape {
     position: absolute;
-    bottom: 30px;
+    bottom: 5px;
     color: white;
 }

@@ -3,13 +3,12 @@ import SubmitButton from '../form/SubmitButton'
 import Footer from '../layout/Footer'
 import Navegador from '../layout/Navegador'
 import './ListaEstoque.css'
-import { VscTrash } from "react-icons/vsc";
 import { BiSolidEdit } from "react-icons/bi";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ExcluirDado from "../project/DeleteEstoque"
-import LinkButton from '../layout/LinkButton'
 import Vender from '../project/vender'
+import { GrClose } from "react-icons/gr";
 
 function ListaEstoque () {
 
@@ -25,7 +24,11 @@ function ListaEstoque () {
        });
    }, []);
 
+   const [isVisible, setIsVisible] = useState(false);
    
+   const toggleVisibility = () => {
+      setIsVisible(!isVisible);
+    };
 
    return (
 <div>
@@ -36,7 +39,7 @@ function ListaEstoque () {
          <div className='busca'>
             <SubmitButton text="buscar"/>
             <Input placeholder="qual produto você procura?" />
-            <LinkButton text={'vender produto'}/>
+            <button id='a' onClick={toggleVisibility} >vender produto</button>
             <div className='form-vendas'>
                <Vender/>
             </div>
@@ -67,13 +70,34 @@ function ListaEstoque () {
                       ))}
                </tbody>
             </table>
+            {isVisible && (
+               <div className='painel-vender'>
+          <GrClose color='c4c4c4' size={30} cursor={'pointer'} onClick={toggleVisibility} />
+         <div className='painel-vender-entradas'>
+            <Input 
+               placeholder={'quantidade de produtos'}
+               type={'number'}
+               name={'quantidade'}
+               text={'Quantidade'}
+            />
+            <Input 
+               type={'number'}
+               name={'id'}
+               text={'ID'}
+               placeholder={'quantidade de produtos'}
+               
+            />
+            <SubmitButton text={'vender produto'} />
+         </div>
       </div>
-    <Footer/>  
-</div>
+            )}
+          
+    
+</div> 
+ <Footer/>  
+      </div>
 
-        
       
-
    ) 
 }
 

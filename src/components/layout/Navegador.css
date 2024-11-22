@@ -5,7 +5,7 @@
 
 
 .img_logo {
-    width: 70px;
+    width: 60px;
     margin-left: 20px;
 }
 .nav_ul {
@@ -26,14 +26,14 @@
 .container_navegador {
     display: flex;
     justify-content: space-between;
-    background-color: #00031100;
+    background-color: #00072400;
     transition: 1s;
     position: absolute;
     top: 0%;
     width: 100%;
 }
 .container_navegador:hover {
-    background-color: #00061acc;
+    background-color: #0004116c;
 }
 .nav_li a {
     color: #FFC65E;

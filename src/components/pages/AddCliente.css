@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
     padding: 3em;
     background: linear-gradient( #001227,#001F3F);
 }
@@ -29,4 +28,7 @@ span {
     width: 130px;
     cursor: pointer;
     border-radius: 50px;
+}
+.newproject_container button:hover {
+    color: black;
 }

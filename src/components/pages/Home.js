@@ -18,7 +18,7 @@ function Home () {
             <section className='home_container'>
                <div className='central-home'>
                   <div className='container-link'>
-                     <h1>Controle de ordem <br/>de serviço <span>COS</span></h1>
+                     <h1>Controle de ordem <br/>de serviço <span>COS</span> </h1>
                      <p>com este aplicativo torne o gerenciamento do seu negocio ágio e 
                         prático, e torne o dia a dia da sua empresa uma experiência
                         agradável e produtiva, com uma interface simples elegante e de 
@@ -73,7 +73,7 @@ function Home () {
                </div>
                <div className='informacao'>
                   <div className='informacao-1'>
-                     <MdLocationOn color='white' size={40} /><p>rua 1 av 2 não sei onde mais 3030-01</p>
+                     <MdLocationOn color='white' size={40} /><p>rua 1 av 2 logradouro 3030-01</p>
                   </div> 
                   <div className='informacao-2'>
                      <FiPhoneCall color='white' size={40} /><p>+55 071 912345678</p>
